@@ -8,11 +8,10 @@ import { Link } from "react-router-dom";
 
 
 // Axios
-const SideBar = (props) =>{
-const {user} = props
+const SideBar = () =>{
 
 
-console.log(user)
+
     return(
         <Fragment>
             <div className="sideBar"> 
@@ -24,7 +23,7 @@ console.log(user)
                   <div className="nav_list">
                   <Accordion>
                       <Accordion.Item eventKey="0">
-                        {(user.name)? <Accordion.Header> {user.name}  </Accordion.Header>:'Loading...'}
+                         <Accordion.Header> Home </Accordion.Header>
                        
                       </Accordion.Item>
                       <Accordion.Item eventKey="1">
