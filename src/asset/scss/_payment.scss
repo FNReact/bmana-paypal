@@ -1,0 +1,58 @@
+.payment_wrapper{
+    padding: 20px 0 110px 0;
+    .payment_option_card{
+        height: 420px;
+        width: 100%;
+        background-color: $white;
+        border-radius: 15px;             
+        border: 1px dashed $border-2;
+        line-height: 60px;
+        text-align: center;
+        padding: 30px 25px;
+
+        h3{
+            font-size: 24px;
+            font-weight: 500;
+            color: $black;
+            text-align: center;
+            padding-bottom: 45px;
+            display: inline-block;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 500; 
+            color: $black;
+            text-align: center;  
+            line-height: 32px;
+            span{
+               font-weight: 400; 
+               font-size: 18px; 
+            }
+        }
+        h5{
+            font-size: 18px;
+            font-weight: 400; 
+            color: $text; 
+            text-align: center; 
+            line-height: 28px;  
+        }
+     }
+     .donate_option_card{
+        height: 280px;
+        width: 100%;
+        background-color: $white;
+        border-radius: 15px;             
+        border: 1px dashed $border-2;
+        line-height: 60px;
+        text-align: center;
+        padding: 30px;
+
+        h3{
+            font-size: 26px;
+            font-weight: 500;
+            color: $black;
+            text-align: center;
+            padding-bottom: 45px;
+        }
+     }    
+}
